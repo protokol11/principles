@@ -30,6 +30,15 @@ lint / rewrite of each artifact    rendered compliance artifacts:
                                    role-prompts, cp-corpus
 ```
 
+## Quick start
+
+```sh
+git clone https://github.com/protokol11/principles.git
+cp -r principles/skills/to-principles principles/skills/principled-write principles/skills/principles-render ~/.agents/skills/
+```
+
+In pi: `/skill:to-principles` extracts principles from a session. Details below.
+
 ## Install
 
 Prerequisites: Node.js 18 or newer (for `principles-render` only).
